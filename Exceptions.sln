@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{63DC4E75-D5FE-47A7-9DEF-CBE954706BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A83169B4-CC21-4003-B121-9701269C1A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7769A003-8AE1-4685-9AD9-2ED95B41569C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions.Domain", "Domain\Exceptions.Domain\Exceptions.Domain.csproj", "{0F583C41-4081-4680-A332-E0F8EA7A8D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions.API", "Infrastructure\Exceptions.API\Exceptions.API.csproj", "{FA90A543-46E9-48F7-AC59-99081A848624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F583C41-4081-4680-A332-E0F8EA7A8D62} = {7769A003-8AE1-4685-9AD9-2ED95B41569C}
+		{FA90A543-46E9-48F7-AC59-99081A848624} = {A83169B4-CC21-4003-B121-9701269C1A6D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F583C41-4081-4680-A332-E0F8EA7A8D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F583C41-4081-4680-A332-E0F8EA7A8D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F583C41-4081-4680-A332-E0F8EA7A8D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F583C41-4081-4680-A332-E0F8EA7A8D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA90A543-46E9-48F7-AC59-99081A848624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA90A543-46E9-48F7-AC59-99081A848624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA90A543-46E9-48F7-AC59-99081A848624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA90A543-46E9-48F7-AC59-99081A848624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
